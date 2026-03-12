@@ -17,4 +17,5 @@ def test_get_integrations(fake_controller: Controller) -> None:
         "shellyforhass",
         "event",
         "tasmota",
+        "milight",
     }

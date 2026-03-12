@@ -21,6 +21,7 @@ from cx_devices.legrand import *
 from cx_devices.linkind import *
 from cx_devices.livarno import *
 from cx_devices.lutron import *
+from cx_devices.milight import *
 from cx_devices.muller_licht import *
 from cx_devices.namron import *
 from cx_devices.osram import *

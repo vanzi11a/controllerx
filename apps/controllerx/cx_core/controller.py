@@ -559,6 +559,14 @@ class Controller(Hass, Mqtt):  # type: ignore[misc]
         """
         return None
 
+    def get_milight_actions_mapping(self) -> DefaultActionsMapping | None:
+        """
+        Controllers can implement this function. It should return a dict
+        with the action event that a controller can take and the functions as values.
+        This is used for MiLight MQTT bridge support.
+        """
+        return None
+
     def get_lutron_caseta_actions_mapping(self) -> DefaultActionsMapping | None:
         """
         Controllers can implement this function. It should return a dict
