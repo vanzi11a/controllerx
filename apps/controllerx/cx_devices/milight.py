@@ -12,6 +12,8 @@ class MiLightK2SLightController(LightController):
             "command:previous_mode": Light.CLICK_COLOR_TEMP_DOWN,
             "command:set_white": Light.ON_FULL_COLOR_TEMP,
             "command:night_mode": Light.ON_MIN_BRIGHTNESS,
-            "state:on": Light.ON,
-            "state:off": Light.OFF,
+            "state:on": Light.TOGGLE,
+            "state:off": Light.TOGGLE,
+            "command:temperature_down": Light.CLICK_COLOR_TEMP_DOWN,
+            "command:temperature_up": Light.CLICK_COLOR_TEMP_UP,
         }
